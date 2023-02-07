@@ -1,4 +1,6 @@
 ﻿using DevTrust.Models;
+using DevTrust.Services;
+using Microsoft.Extensions.DependencyInjection;
 using DocumentFormat.OpenXml.Spreadsheet;
 using System;
 using System.Collections.Generic;
@@ -21,8 +23,14 @@ namespace DevTrust
 {
     public partial class MainWindow : Window
     {
+        private readonly IDataAccessService? _dataAccessService;
         public MainWindow()
         {
+            var serviceProvider = new ServiceCollection()
+                 .AddSingleton<IDataAccessService, DataAccessService>()
+                 .BuildServiceProvider();
+
+            _dataAccessService = serviceProvider.GetService<IDataAccessService>();
             InitializeComponent();
         }
 

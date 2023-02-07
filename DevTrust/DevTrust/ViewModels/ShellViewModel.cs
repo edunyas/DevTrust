@@ -14,7 +14,7 @@ namespace DevTrust.ViewModels
 
         public ShellViewModel()
         {
-            DataAccess da = new DataAccess();
+            DataAccessService da = new DataAccessService();
             People = new BindableCollection<PersonModel>(da.GetPeople());
         }
     }

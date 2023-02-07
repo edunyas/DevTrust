@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "b2dTKMp5iqSjCuQZZ5J9kTy2FWjUxqGfTIQFTK+BRnx32mV70s2JGmQXUGHC1L5nEvJ2bcXlRB6U/Ev3X7CUdg==",
+  "dgSpecHash": "nBK4Q2BDCeNi6GqHRbuZdL44+vr54b+PElD4OAOcMbfDXIQ3HEUNno7IQdEI5JoLEERGyrUyBmm+tg783eAMLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\edunece\\OneDrive - Ericsson\\Desktop\\DevTrust\\DevTrust\\DevTrust.csproj",
+  "projectFilePath": "C:\\Users\\edunece\\Source\\Repos\\DevTrustCase\\DevTrust\\DevTrust\\DevTrust.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edunece\\.nuget\\packages\\caliburn.micro.core\\4.0.212\\caliburn.micro.core.4.0.212.nupkg.sha512",
     "C:\\Users\\edunece\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
+    "C:\\Users\\edunece\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\edunece\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\edunece\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\edunece\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\edunece\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
